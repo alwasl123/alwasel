@@ -1,66 +1,124 @@
-
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>روابط منتجات واصل الأصيل</title>
-  <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet" />
   <style>
     body {
-      font-family: 'Cairo', sans-serif;
-      background-color: #f9f9f9;
+      font-family: 'Tajawal', sans-serif;
+      background-color: #f4f6f8;
+      padding: 30px 20px;
       text-align: center;
-      padding: 30px;
     }
-    h1 {
-      color: #333;
+
+    header {
+      margin-bottom: 20px;
     }
+
+    header h1 {
+      font-size: 30px;
+      color: #1e90ff;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 16px;
+      color: #555;
+    }
+
     .product {
-      margin: 30px auto;
-      max-width: 400px;
-      background-color: #ffffff;
+      background-color: #fff;
       border-radius: 12px;
-      padding: 15px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 400px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      text-align: center;
     }
+
     .product img {
       width: 100%;
       border-radius: 10px;
+      margin-bottom: 15px;
     }
+
+    .product h3 {
+      font-size: 20px;
+      color: #222;
+      margin-bottom: 8px;
+    }
+
+    .product p {
+      font-size: 15px;
+      color: #666;
+      margin-bottom: 12px;
+    }
+
     .product a {
       display: inline-block;
-      margin-top: 10px;
       padding: 12px 20px;
-      font-size: 16px;
-      color: white;
       background-color: #1e90ff;
+      color: white;
       text-decoration: none;
+      font-size: 16px;
       border-radius: 8px;
       transition: background-color 0.3s ease;
     }
+
     .product a:hover {
       background-color: #0f75d1;
+    }
+
+    .highlighted {
+      color: #003366;
+      font-weight: bold;
+    }
+
+    @media (max-width: 500px) {
+      .product {
+        padding: 15px;
+      }
+      .product h3 {
+        font-size: 18px;
+      }
+      .product p {
+        font-size: 14px;
+      }
     }
   </style>
 </head>
 <body>
 
-  <h1>🛍️ alwasel products </h1>
+  <header>
+    <h1>🛍️ متجر واصل الأصيل</h1>
+    <p>أفضل المنتجات بأسعار مذهلة – روابط مباشرة من علي إكسبرس</p>
+  </header>
+
+  <p class="highlighted">
+    🚚 جميع المنتجات متوفرة مع توصيل مجاني داخل المملكة العربية السعودية 🇸🇦
+  </p>
 
   <div class="product">
-    <img src="https://ae01.alicdn.com/kf/S03cb4c0310e54c69b166f8292c24e78bt.jpg" alt="كيبورد مغناطيسي ذكي للآيباد">
-    <a href="https://s.click.aliexpress.com/e/_omFzqEg" target="_blank">كيبورد مغناطيسي ذكي للآيباد</a>
+    <img src="https://ae01.alicdn.com/kf/S03cb4c0310e54c69b166f8292c24e78bt.jpg" alt="كيبورد مغناطيسي ذكي للآيباد" />
+    <h3>كيبورد مغناطيسي ذكي للآيباد</h3>
+    <p>تصميم أنيق، مريح للكتابة، يدعم التوصيل المغناطيسي</p>
+    <a href="https://s.click.aliexpress.com/e/_omFzqEg" target="_blank">🔗 اطلبه الآن</a>
   </div>
 
   <div class="product">
-    <img src="https://i.postimg.cc/Jn9YDRKr/Sb1897c5d156c40ca9d2501b52b7b0f4ce.avif" alt="Baseus Qi2 Magnetic Power Bank">
-    <a href="https://s.click.aliexpress.com/e/_oEIGneU" target="_blank">باور بانك Baseus Qi2 – سعة 10000mAh، شحن لاسلكي وسلكي</a>
+    <img src="https://i.postimg.cc/Jn9YDRKr/Sb1897c5d156c40ca9d2501b52b7b0f4ce.avif" alt="Baseus Qi2 Magnetic Power Bank" />
+    <h3>باور بانك Baseus Qi2</h3>
+    <p>سعة 10000mAh، شحن لاسلكي وسلكي، تصميم مغناطيسي</p>
+    <a href="https://s.click.aliexpress.com/e/_oEIGneU" target="_blank">🔗 اطلبه الآن</a>
   </div>
 
   <div class="product">
-    <img src="https://ae-pic-a1.aliexpress-media.com/kf/S06e76198c2f447c8bb264fe1270b6955H.jpg" alt="مزيل شعر الحيوانات">
-    <a href="https://s.click.aliexpress.com/e/_oBL8TmQ" target="_blank">مزيل شعر الحيوانات</a>
+    <img src="https://ae-pic-a1.aliexpress-media.com/kf/S06e76198c2f447c8bb264fe1270b6955H.jpg" alt="مزيل شعر الحيوانات" />
+    <h3>مزيل شعر الحيوانات</h3>
+    <p>سهل الاستخدام، يزيل الشعر من الأثاث والملابس بكفاءة</p>
+    <a href="https://s.click.aliexpress.com/e/_oEIUN1c" target="_blank">🔗 اطلبه الآن</a>
   </div>
 
 </body>
